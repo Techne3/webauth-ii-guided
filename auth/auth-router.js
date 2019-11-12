@@ -46,6 +46,7 @@ router.get('/logout', (req,res)=> {
         res.status(500).json({message: 'you can check  out any time you like, but you can never leave'})
       }
     });
+
   }else{
     res.status(200).json({Message: 'thanks for playing'})
   }
